@@ -1,4 +1,6 @@
-#include "../../config.h"
+#pragma once
+
+//#include "../../config.h"
 
 // Tap dance key settings
 #define TAPPING_TERM 200

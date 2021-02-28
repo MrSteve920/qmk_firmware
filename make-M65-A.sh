@@ -7,7 +7,7 @@ cp /mnt/d/Internal\ Documents/Personal\ Files/Mechanical\ Keyboards/M65-A/QMK\ C
 cp /mnt/d/Internal\ Documents/Personal\ Files/Mechanical\ Keyboards/M65-A/QMK\ Configuration/Custom/config.h ./keyboards/jc65/v32u4/keymaps/custom/config.h
 
 # Copy rules from Internal HDD drive "D" to Custom M65a directory. Need sudo because of .mk file type.
-sudo cp /mnt/d/Internal\ Documents/Personal\ Files/Mechanical\ Keyboards/M65-A/QMK\ Configuration/Custom/rules.mk ./keyboards/jc65/v32u4/keymaps/custom/rules.mk
+cp /mnt/d/Internal\ Documents/Personal\ Files/Mechanical\ Keyboards/M65-A/QMK\ Configuration/Custom/rules.mk ./keyboards/jc65/v32u4/keymaps/custom/rules.mk
 
 echo "Files copied from Windows based hard drives. Running QMK compile..."
 
